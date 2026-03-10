@@ -34,11 +34,8 @@ public class LoginPage extends BaseUI {
             waitAndSendKeys(passwordInput, "Test" + i + "Pass!");
             waitAndClick(signInButton);
 
-            explicitWait(5).until(ExpectedConditions.visibilityOf(signOutButton));
-            Assertions.assertTrue(signOutButton.isDisplayed());
+            explicitWait(5).until(ExpectedConditions.elementToBeClickable(signOutButton));
             waitAndClick(signOutButton);
-
-            driver.navigate().to("https://my-wallet-wizard.lovable.app/login");
         }
     }
 

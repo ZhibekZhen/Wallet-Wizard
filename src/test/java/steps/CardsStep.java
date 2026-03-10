@@ -31,7 +31,7 @@ public class CardsStep extends BaseUI{
         Assertions.assertEquals(expected,actual);
     }
     @Then("verify user can close the card details modal")
-    public void verify_user_can_close_the_card_details_modal() throws InterruptedException {
+    public void verify_user_can_close_the_card_details_modal(){
         waitAndClick(cardsPage.closeBalanceInfoButton);
         explicitWait(5).until(ExpectedConditions.invisibilityOf(cardsPage.balanceInfo));
     }
