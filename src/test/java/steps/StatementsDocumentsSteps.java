@@ -22,9 +22,6 @@ public class StatementsDocumentsSteps extends BaseUI {
     StatementsDocumentsPage page = new StatementsDocumentsPage();
 
 
-
-
-
     @When("user clicks the Statements tab")
     public void user_clicks_the_statements_tab() {
        waitAndClick(page.statementsTab);

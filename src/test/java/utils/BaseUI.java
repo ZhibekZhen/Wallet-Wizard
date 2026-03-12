@@ -137,12 +137,6 @@ public class BaseUI {
     }
 
 
-
-
-
-
-
-
     public List<WebElement> getCellsListByHeaderAndByLocator(By locator, String headerName) {
         WebElement table = Driver.getDriver().findElement(locator);
 

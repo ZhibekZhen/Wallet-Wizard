@@ -5,9 +5,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
 import pages.BusinessDetailsPage;
-import pages.ProfileOverviewPage;
 import utils.BaseUI;
-import utils.Driver;
 
 public class BusinessDetailsSteps extends BaseUI {
 
