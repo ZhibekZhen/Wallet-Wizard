@@ -17,7 +17,3 @@ Feature: verify user is able to log in
       |                          | Test1Pass! |
       |                          |            |
       | abc                      | efd        |
-
-
-
-
